@@ -3,7 +3,7 @@
 #   NAME: EMAIL SLICER
 #   SHORT_DISC: The email slicer is a handy program to get the username and domain name from an email address.
 #   You can customize and send a message to the user with this information.
-#   PARAMS: email - str EX: asaeed@bisak.org
+#   PARAMS: email - str EX: deniernal354@github.com
 #   LIBRARIES/DEPENDENCIES: re
 ###
 # == END OF PROGRAM DETAILS == #
@@ -16,7 +16,7 @@ import re
 regex = r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
 
 # email = input("Enter your email: ")
-email = "asaeed@bisak.org"
+email = "deniernal354@github.com"
 
 def validate():
     global email
