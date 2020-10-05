@@ -28,7 +28,7 @@ def validate():
 
 def getUsernameAndGetDomainName():
     global email
+    validate()
     return print("Email Username: " + email.split("@")[0] + "\nEmail Domain: " + email.split("@")[1])
 
-validate()
 getUsernameAndGetDomainName()
